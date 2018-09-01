@@ -1,0 +1,16 @@
+<templateSet group="WXUtil">
+  <template name="impossible" value="throw new java.lang.RuntimeException(&quot;impossible&quot;, e);" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="singleton" value="private static final $classname$ outInstance = new $classname$();&#10;&#10;private $classname$() {}&#10;&#10;public static $classname$ getInstance() {&#10;    return outInstance;&#10;}" description="singleton" toReformat="false" toShortenFQNames="true">
+    <variable name="classname" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

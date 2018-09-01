@@ -1,0 +1,52 @@
+<templateSet group="WXLayout">
+  <template name="space" value="&lt;android.support.v4.widget.Space&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot; /&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="text" value="&lt;TextView &#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    tools:text=&quot;hello world&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="vertical" value="&lt;LinearLayout&#10;        android:orientation=&quot;vertical&quot;&#10;        android:layout_width=&quot;match_parent&quot;&#10;        android:layout_height=&quot;wrap_content&quot;&gt;&#10;&#10;&#10;    &lt;/LinearLayout&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="button" value="&lt;Button&#10;            android:layout_width=&quot;wrap_content&quot;&#10;            android:layout_height=&quot;wrap_content&quot;&#10;            tools:text=&quot;hello world&quot; /&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="frame" value="&lt;FrameLayout&#10;            android:layout_width=&quot;wrap_content&quot;&#10;            android:layout_height=&quot;wrap_content&quot;&gt;&#10;            &#10;            &#10;        &lt;/FrameLayout&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="image" value="&lt;ImageView &#10;    android:layout_height=&quot;wrap_content&quot;&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    tools:drawable=&quot;@drawable/ic_launcher&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+  <template name="linear" value="&lt;LinearLayout&#10;    android:orientation=&quot;horizontal&quot;&#10;    android:layout_width=&quot;match_parent&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&gt;&#10;    $END$&#10;    &#10;&lt;/LinearLayout&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="list" value="&lt;ListView&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&gt;&#10;    $END$&#10;    &#10;&lt;/ListView&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="recycler" value="&lt;android.support.v7.widget.RecyclerView&#10;    android:layout_width=&quot;wrap_content&quot;&#10;    android:layout_height=&quot;wrap_content&quot;&gt;&#10;    $END$&#10;    &#10;&lt;/android.support.v7.widget.RecyclerView&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="relative" value="&lt;RelativeLayout&#10;            android:layout_width=&quot;wrap_content&quot;&#10;            android:layout_height=&quot;wrap_content&quot;&gt;&#10;            &#10;            &#10;        &lt;/RelativeLayout&gt;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
